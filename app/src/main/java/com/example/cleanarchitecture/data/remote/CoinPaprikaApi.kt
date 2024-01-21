@@ -2,7 +2,6 @@ package com.example.cleanarchitecture.data.remote
 
 import com.example.cleanarchitecture.data.remote.dto.CoinDetailDto
 import com.example.cleanarchitecture.data.remote.dto.CoinDto
-import com.example.cleanarchitecture.domain.model.CoinDetail
 import retrofit2.http.GET
 import retrofit2.http.Path
 
