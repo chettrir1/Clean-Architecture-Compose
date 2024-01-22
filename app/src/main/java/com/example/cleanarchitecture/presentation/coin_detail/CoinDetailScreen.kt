@@ -32,7 +32,7 @@ import com.example.cleanarchitecture.presentation.coin_detail.component.CoinTag
 import com.example.cleanarchitecture.presentation.coin_detail.component.TeamListItem
 
 @Composable
-fun CoinListScreen(
+fun CoinDetailScreen(
     viewModel: CoinDetailViewModel = hiltViewModel()
 ) {
     val state = viewModel.state.value
@@ -78,7 +78,9 @@ fun CoinListScreen(
                         modifier = Modifier.fillMaxWidth(),
                     ) {
                         coin.tags.forEach { tag ->
-                            CoinTag(tag = tag)
+                            Box (modifier = Modifier.padding(bottom = 8.dp)){
+                                CoinTag(tag = tag)
+                            }
                         }
                     }
                     Spacer(modifier = Modifier.height(16.dp))

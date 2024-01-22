@@ -21,8 +21,7 @@ fun CoinTag(
                 width = 1.dp,
                 color = MaterialTheme.colorScheme.primary,
                 shape = RoundedCornerShape(100.dp)
-            )
-            .padding(horizontal = 16.dp, vertical = 8.dp)
+            ).padding(horizontal = 16.dp, vertical = 8.dp)
     ) {
         Text(
             text = tag,
