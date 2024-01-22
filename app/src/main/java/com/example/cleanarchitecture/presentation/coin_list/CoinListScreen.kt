@@ -1,4 +1,4 @@
-package com.example.cleanarchitecture.presentation.coin_list.component
+package com.example.cleanarchitecture.presentation.coin_list
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -17,7 +17,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import com.example.cleanarchitecture.presentation.Screen
-import com.example.cleanarchitecture.presentation.coin_list.CoinListViewModel
+import com.example.cleanarchitecture.presentation.coin_list.component.CoinListItem
 
 @Composable
 fun CoinListScreen(
